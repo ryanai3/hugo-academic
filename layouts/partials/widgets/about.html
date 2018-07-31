@@ -80,7 +80,7 @@
         <ul class="ul-experience fa-ul">
           {{ range .places }}
           <li>
-            <i class="fa-li fa fa-briefcase"></i>
+            <i class="fa-li fa fa-{{ .icon }}"></i>
             <div class="description">
               <p class="desc">{{ .desc }}{{ with .year }} &nbsp; {{ . }}{{ end }}</p>
             </div>
